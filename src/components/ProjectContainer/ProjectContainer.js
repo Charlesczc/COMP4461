@@ -67,9 +67,20 @@ const ProjectContainer = ({ project }) => (
     style={{ textDecoration: 'none', color: 'inherit' }}
   >
     <div className='project'>
-      {project.image && (
+      {/* {project.image && (
         <img
           src={project.image}
+          alt={`${project.name} screenshot`}
+          style={{ width: '100%', objectFit: 'cover' }}
+        />
+      )} */}
+      {project.image && (
+        <img
+          src={
+            project.image.startsWith('http')
+              ? project.image
+              : `${process.env.PUBLIC_URL}${project.image}`
+          }
           alt={`${project.name} screenshot`}
           style={{ width: '100%', objectFit: 'cover' }}
         />

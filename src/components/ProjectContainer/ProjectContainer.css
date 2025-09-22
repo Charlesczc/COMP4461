@@ -1,4 +1,4 @@
-.project {
+/* .project {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
@@ -12,6 +12,66 @@
 
 .project__description {
   margin-top: 1em;
+}
+
+.project__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
+}
+
+.project__stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+}
+
+.project .link--icon {
+  margin-left: 0.5em;
+} */
+
+.project {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px; /* keep cards uniform */
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.project img {
+  width: 100%;
+  height: auto; /* natural height */
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1em;
+}
+
+/* .project__description {
+  margin-top: 1em;
+  flex-grow: 1;
+} */
+.project__description {
+  margin-top: 1em;
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* force 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  min-height: calc(1.2em * 3); /* reserve space for 3 lines of text */
+  line-height: 1.2em; /* adjust line height */
 }
 
 .project__stack {

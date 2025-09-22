@@ -8,11 +8,9 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Yiu CHANG',
   role: 'Comp4461 Student',
-  picture:
-    'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  picture: 'icon.JPG',
 
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: '',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
@@ -28,21 +26,19 @@ const projects = [
     name: 'Project 1',
     description:
       'Make the campus more friendly for visiting students from the aquatic kingdom of Atlantis',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: [' ', ' ', ' '],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image:
-      'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+    image: '/images/proj1Pic.png',
   },
   {
     id: 'project-2',
     name: 'Project 2',
     description: 'Human-Robot Interaction for Disaster Management',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: [' ', ' ', ' '],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image:
-      'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+    image: '/images/proj1Pic.png',
   },
 ]
 

@@ -43,6 +43,7 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import ScrollToTopOnRouteChange from './components/ScrollToTop/ScrollToTopOnRouteChange'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Project1 from './components/ProjectPages/Project1'
@@ -54,6 +55,8 @@ const App = () => {
 
   return (
     <Router>
+      <ScrollToTopOnRouteChange />
+
       <div id='top' className={`${themeName} app`}>
         <Header />
 
