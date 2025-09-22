@@ -32,7 +32,7 @@ const Project1 = () => (
         {/* Replace the div below with an <img> or interactive mindmap */}
         <div className='project-detail__mindmap-placeholder'>
           <img
-            src={`${process.env.PUBLIC_URL}/images/mindmap.png`}
+            src={`${process.env.PUBLIC_URL}/images/MindMap.png`}
             alt='Mindmap overview'
             className='project-detail__mindmap-image'
           />
@@ -45,64 +45,62 @@ const Project1 = () => (
       <h2 className='project-detail__section-title'>
         Learning & Execution Process
       </h2>
-      <p className='project-detail__text'>
-        <div className='project-detail__subsection'>
-          <h3 className='project-detail__subsection-title'>Needfinding</h3>
-          <p className='project-detail__text'>
-            By considering the project as solving an extreme version of
-            accessibility issues for new commers to HKUST, my team and I started
-            empathize by exploring campus and talking to new commers in the
-            HKUST community to identify the common challenges and needs they may
-            have on campus.
-          </p>
-        </div>
+      <div className='project-detail__subsection'>
+        <h3 className='project-detail__subsection-title'>Needfinding</h3>
+        <p className='project-detail__text'>
+          By considering the project as solving an extreme version of
+          accessibility issues for new commers to HKUST, my team and I started
+          empathize by exploring campus and talking to new commers in the HKUST
+          community to identify the common challenges and needs they may have on
+          campus.
+        </p>
+      </div>
 
-        <div className='project-detail__subsection'>
-          <h3 className='project-detail__subsection-title'>POV</h3>
-          <p className='project-detail__text'>
-            My team and I defined the charicteristics of the Atlantis students.
-            Including their outlook, lifestyle, culture and behaviour. Then
-            synthesizing the insights and findings to identify key needs and
-            challenges they may face on campus. We then framed the it into a
-            Point of View statement to guide our ideation process:
-            <span style={{ color: 'var(--clr-primary)', fontWeight: 'bold' }}>
-              &quot;How might we enable Atlantis students to communicate
-              seamlessly with humans so they feel included and empowered in
-              academic and social setting?&quot;.
-            </span>
-          </p>
-          <ul className='project-detail__list'>
-            <li>
-              User: Atlantis students attending HKUST who live underwater and
-              have unique communication styles using sonar.
-            </li>
-            <li>
-              Need: Need a way for them to communicate seamlessly with humans so
-              that they can participate fully in classes, group activities, and
-              social interactions.
-            </li>
-            <li>
-              Insight: Atlantis students may struggle to express themselves in
-              human-centric community, which may make them feel excluded. By
-              facilitating seamless communication, we can help them to feel
-              included and confident; promote friendly interactions and thought
-              exchange; and foster a sense of belonging on campus.
-            </li>
-          </ul>
-        </div>
+      <div className='project-detail__subsection'>
+        <h3 className='project-detail__subsection-title'>POV</h3>
+        <p className='project-detail__text'>
+          My team and I defined the charicteristics of the Atlantis students.
+          Including their outlook, lifestyle, culture and behaviour. Then
+          synthesizing the insights and findings to identify key needs and
+          challenges they may face on campus. We then framed the it into a Point
+          of View statement to guide our ideation process:
+          <span style={{ color: 'var(--clr-primary)', fontWeight: 'bold' }}>
+            &quot;How might we enable Atlantis students to communicate
+            seamlessly with humans so they feel included and empowered in
+            academic and social setting?&quot;.
+          </span>
+        </p>
+        <ul className='project-detail__list'>
+          <li>
+            User: Atlantis students attending HKUST who live underwater and have
+            unique communication styles using sonar.
+          </li>
+          <li>
+            Need: Need a way for them to communicate seamlessly with humans so
+            that they can participate fully in classes, group activities, and
+            social interactions.
+          </li>
+          <li>
+            Insight: Atlantis students may struggle to express themselves in
+            human-centric community, which may make them feel excluded. By
+            facilitating seamless communication, we can help them to feel
+            included and confident; promote friendly interactions and thought
+            exchange; and foster a sense of belonging on campus.
+          </li>
+        </ul>
+      </div>
 
-        <div className='project-detail__subsection'>
-          <h3 className='project-detail__subsection-title'>Ideation</h3>
-          <p className='project-detail__text'>
-            We then brainstormed a wide range of ideas and solutions to address
-            the challenges stated in the POV statement. We utilise techniques
-            such as mind mapping and sketching to generate diverse ideas in
-            class. And at the end we finialised on a promising and feasible
-            solution of a necklace-like device that can do real time translation
-            between sonar and human language.
-          </p>
-        </div>
-      </p>
+      <div className='project-detail__subsection'>
+        <h3 className='project-detail__subsection-title'>Ideation</h3>
+        <p className='project-detail__text'>
+          We then brainstormed a wide range of ideas and solutions to address
+          the challenges stated in the POV statement. We utilise techniques such
+          as mind mapping and sketching to generate diverse ideas in class. And
+          at the end we finialised on a promising and feasible solution of a
+          necklace-like device that can do real time translation between sonar
+          and human language.
+        </p>
+      </div>
     </div>
 
     {/* Reflection */}
