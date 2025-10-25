@@ -38,7 +38,7 @@ const projects = [
     stack: [' ', ' ', ' '],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: '/images/proj1Pic.png',
+    image: '/images/proj2Pic.png',
   },
 ]
 

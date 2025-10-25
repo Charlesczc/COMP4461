@@ -50,9 +50,10 @@
 }
 
 .project img {
-  width: 100%;
-  height: auto; /* natural height */
-  object-fit: cover;
+  width: 100%; /* Maintains responsiveness */
+  max-height: 200px; /* Restricts maximum height */
+  height: auto; /* Preserves aspect ratio */
+  object-fit: cover; /* Crops to fit while maintaining aspect ratio */
   border-radius: 6px;
   margin-bottom: 1em;
 }
