@@ -48,6 +48,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Project1 from './components/ProjectPages/Project1'
 import Project2 from './components/ProjectPages/Project2'
+import Project3 from './components/ProjectPages/Project3'
 import './App.css'
 
 const App = () => {
@@ -71,6 +72,7 @@ const App = () => {
 
             <Route path='/project/project-1' component={Project1} />
             <Route path='/project/project-2' component={Project2} />
+            <Route path='/project/project-3' component={Project3} />
           </Switch>
         </main>
 

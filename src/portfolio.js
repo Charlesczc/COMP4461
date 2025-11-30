@@ -40,6 +40,15 @@ const projects = [
     livePreview: 'https://github.com',
     image: '/images/proj2Pic.png',
   },
+  {
+    id: 'project-3',
+    name: 'Project 3',
+    description: 'Social Extended Reality (XR) for Local Community',
+    stack: [' ', ' ', ' '],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    image: '/images/proj3Pic.png',
+  },
 ]
 
 const skills = [
